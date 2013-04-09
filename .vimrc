@@ -501,8 +501,9 @@
         inoremap <expr><CR> neocomplcache#complete_common_string()
 
         " <TAB>: completion.
-        inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
-        inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<TAB>"
+        "conflickt with neosnippet
+        "inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+        "inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<TAB>"
 
         " <CR>: close popup
         " <s-CR>: close popup and save indent.
