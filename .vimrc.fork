@@ -1,0 +1,4 @@
+nmap ; :
+nmap ,r :CtrlPMRUFiles<CR>
+nmap ,b :CtrlPBuffer<CR>
+set autochdir
